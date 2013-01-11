@@ -1,0 +1,20 @@
+{
+  "name": "yttej",
+  "version": "0.0.0",
+  "description": "Jetty in reverse. Parse ANSI escape sequences!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fknsrs/yttej.git"
+  },
+  "keywords": [
+    "ansi",
+    "escape",
+    "parse"
+  ],
+  "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "license": "BSD",
+  "dependencies": {
+    "steez": "~0.4.2"
+  }
+}
