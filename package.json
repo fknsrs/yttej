@@ -1,6 +1,6 @@
 {
   "name": "yttej",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Jetty in reverse. Parse ANSI escape sequences!",
   "main": "index.js",
   "repository": {
