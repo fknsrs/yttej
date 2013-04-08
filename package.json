@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Jetty in reverse. Parse ANSI escape sequences!",
   "main": "index.js",
+  "engines": {
+    "node": "~0.10.0"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/fknsrs/yttej.git"
