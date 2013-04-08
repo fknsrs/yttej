@@ -4,11 +4,9 @@ var Yttej = require("./index");
 
 var yttej = new Yttej();
 
-["data", "sequence"].forEach(function(ev) {
-  yttej.on(ev, console.log.bind(console, ev));
-});
+yttej.on("data", console.log.bind(console));
 
 yttej.write("asdfqwer");
-yttej.write("\x1b");
-yttej.write("\x5b");
+yttej.write(Buffer([0x1b]));
+yttej.write(Buffer([0x5b]));
 yttej.write("1;2;3aqwer");
