@@ -13,8 +13,5 @@
     "parse"
   ],
   "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
-  "license": "BSD",
-  "dependencies": {
-    "steez": "~0.4.2"
-  }
+  "license": "BSD"
 }
